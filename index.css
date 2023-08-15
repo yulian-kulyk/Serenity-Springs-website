@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.header__background {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.navbar {
+}
+.navbar__brand {
+}
+.navbar__brand-img {
+}
+.navbar__brand-name {
+}
+.navbar__list {
+}
+.navbar__link {
+}
+.navbar__social {
+}
+.header__info {
+}
+.header__title {
+}
+.header__subtext {
+}
