@@ -46,6 +46,11 @@
     font-size: 14px;
 
 }
+.navbar__social .navbar__item img {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 .header__info {
 }
 .header__title {
