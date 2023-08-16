@@ -20,24 +20,31 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 25px;
 }
 .navbar__brand {
     display:inline-flex;
     align-items: center;
 }
 .navbar__brand-img {
+    display: block;
+    width: 100%;
+
 }
 .navbar__brand-name {
+    color: #FFFF;
+    font-size: 29px;
 }
-.navbar__list {
+.navbar__list,.navbar__social {
     display: inline-flex;
     gap:25px;
     list-style: none;
 }
-.navbar__link {
+.navbar__item a {
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 14px;
 
-}
-.navbar__social {
 }
 .header__info {
 }
