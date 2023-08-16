@@ -52,8 +52,23 @@
     background-size: cover;
 }
 .header__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
 }
 .header__title {
+    font-size: 106px;
+    color: #FFFF;
 }
 .header__subtext {
+    color: #FFFF;
+    font-size: 18px;
+}
+.header__book-button {
+    background-color: #FFFF;
+    border-radius: 2px solid #FFFF;
+    padding: 22px 60px;
+    font-size: 15px;
 }
