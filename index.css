@@ -4,7 +4,7 @@
     box-sizing: content-box;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1300px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -16,16 +16,26 @@
     background-size: cover;
 }
 .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .navbar__brand {
+    display:inline-flex;
+    align-items: center;
 }
 .navbar__brand-img {
 }
 .navbar__brand-name {
 }
 .navbar__list {
+    display: inline-flex;
+    gap:25px;
+    list-style: none;
 }
 .navbar__link {
+
 }
 .navbar__social {
 }
